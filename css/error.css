@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../fonts/nexa/Nexa-Heavy.ttf') format(truetype);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('../fonts/nexa/Nexa-ExtraLight.ttf') format(truetype);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Nexa Bold', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+section#error-404 {
+    margin-top: 200px;
+}
+
+p {
+    font-family: 'Nexa Light', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn {
+    padding: 6px;
+    font-size: 1em;
+    width: 100px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: #8915ef;
+    color: #fff;
+    border: none;
+}
+
+#btn > a {
+    color: #fff;
+}
+
+#btn:hover {
+    background-color: #7e13db;
+    color: #e9e8e8;
+}

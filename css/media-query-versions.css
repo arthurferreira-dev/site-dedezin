@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    body {
+        background-color: #025E73;
+    }
+
+    img#version-1-0-img {
+        display: block;
+        margin: auto;
+        height: 148px; /*Reduzido para a metade da metade da altura arredondado para +1*/
+        width: 206px; /*Reduzido para a metade da metade da largura arredondado para +1*/
+    }
+}
+
+@media screen and (min-width: 775px) {
+    img#version-1-0-img {
+        display: block;
+        margin: auto;
+        height: 295.5px; /*Reduzido para a metade da altura*/
+        width: 410px; /*Reduzido para a metade da largura*/
+    }
+}

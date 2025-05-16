@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    body {
+        background-color: #025E73;
+    }
+
+    footer > p {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 775px) {
+
+    body {
+        background-image: linear-gradient(to right, #043540 15%, #00536F,#025E73);
+    }
+
+    main {
+        width: 775px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    i#menu-open {
+        display: none;
+    }
+
+    menu {
+        margin: auto;
+        text-align: center;
+    }
+
+    footer > p {
+        font-size: 1.56vw;
+    }
+}
