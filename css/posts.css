@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
+}
+
+:root {
+    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
+    --arial: Arial, Helvetica, sans-serif;
+    --0_36s: .36s;
+}
+
+body {
+    font-family: var(--comfortaa);
+    background-color: #025E73;
+}
+
+main {
+    margin: auto;
+    background-color: #717171;
+    padding: 6px;
+    border-radius: 5.6px;
+}
+
+img.img {
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+p#p-desc {
+    text-align: left;
+    width: 65%;
+    margin: auto;
+}
+
+a#link-migmig {
+    transition-duration: var(--0_36s);
+}
+
+a#link-migmig:hover {
+    text-decoration: underline;
+    color: #b0b0b0;
+}
+
+button#btn-migmig {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    padding: 6px;
+    font-size: 1.1em;
+    width: 185px;
+    border-radius: 5.6px;
+    border: none;
+    background-color: #104df5;
+}
+
+button#btn-migmig > a {
+    color: #fff;
+}
+
+footer > p {
+    font-family: var(--arial);
+}
+
+.center {
+    text-align: center;
+}

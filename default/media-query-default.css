@@ -5,6 +5,10 @@
         background-color: #025E73;
     }
 
+    main {
+        width: 365px;
+    }
+
     footer > p {
         font-size: 2.5vw;
     }

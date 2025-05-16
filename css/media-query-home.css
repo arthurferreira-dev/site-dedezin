@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 460px) {
-    footer > p {
-        font-size: 2.5vw;
+    body {
+        background-color: #025E73;
     }
 }
 
@@ -18,9 +18,5 @@
     img#profile:hover {
         scale: 1.15;
         box-shadow: 6px 5px 8px #00000091;
-    }
-
-    footer > p {
-        font-size: 1.56vw;
     }
 }

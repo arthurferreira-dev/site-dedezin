@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(media-query-default.css);
 
 * {
     padding: 0px;

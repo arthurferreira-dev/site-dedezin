@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    body {
+        background-color: #025E73;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 4.5%;
+        width: 93%;
+        height: 90%;
+    }
+}

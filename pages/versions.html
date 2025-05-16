@@ -17,21 +17,24 @@
         <menu id="itens">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="error.html">Vídeos</a></li>
-                <li><a href="error.html">Posts</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="posts.html">Posts</a></li>
                 <li><a href="error.html">Notícias</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <h1 class="center" style="font-size: 1.65em;">Versões Alphas</h1>
-        <article>
+        <article id="versions alphas">
             <section id="version-1-0">
                 <h2 class="center" style="margin-top: 12px; margin-bottom: 12px; font-size: 1.44em;">
                     Versão 1.0
                 </h2>
                 <p class="center" style="margin-bottom: 6px;">Página Inicial e Página Changelog</p>
-                <img src="../imgs/versions/1.0.png" alt="Imagem - Versão 1.0" id="version-1-0-img">
+                <div class="x-mark">
+                    <i class="fa-solid fa-xmark" id="x-mark" onclick="OutClickImage()"></i>
+                </div>
+                <img src="../imgs/versions/1.0.png" alt="Imagem - Versão 1.0" id="version-1-0-img" class="images" onclick="ClickImage()">
                 <p class="center" style="margin-top: 6px;">Houve as seguintes criações:</p>
                 <ol class="center" style="margin-top: 12px;">
                     <li style="margin-bottom: 6px;">Esqueleto do Site</li>
@@ -43,6 +46,27 @@
                 </ol>
                 <p class="launcher">Lançamento: 15/05/25</p>
             </section>
+
+            <section id="version-2-0">
+                <h2 class="center" style="margin-top: 12px; margin-bottom: 12px; font-size: 1.44em;">
+                    Versão 2.0
+                </h2>
+                <p class="center" style="margin-bottom: 6px;">Página Vídeo e Página Posts</p>
+                <div class="x-mark2">
+                    <i class="fa-solid fa-xmark" id="x-mark2" onclick="OutClickImage2()"></i>
+                </div>
+                <img src="../imgs/versions/2.0.png" alt="Versão 2.0" id="version-2-0" onclick="ClickImage2()">
+                <p class="center" style="margin-top: 12px; margin-bottom: 12px;">O seguintes itens foram adicionados:</p>
+                <ol class="center">
+                    <li style="margin-bottom: 6px;">Criação de 2 páginas</li>
+                    <li style="margin-bottom: 6px;">Adição de Interatividade na Imagem do "Changelog"</li>
+                    <li style="margin-bottom: 6px;">Adição de Vídeos do Youtube <i class="fa-brands fa-youtube" id="yt-icon"></i> no Site</li>
+                    <li style="margin-bottom: 6px;">Criação de uma Página Padronizada</li>
+                    <li style="margin-bottom: 6px;">Adição de Parcerias ou Posts (Postagens)</li>
+                    <li>E a conexão das páginas no menu</li>
+                </ol>
+                <p class="launcher">Lançamento: 16/05/25</p>
+            </section>
         </article>
     </main>
     <footer>
@@ -50,4 +74,5 @@
     </footer>
 </body>
 <script src="../js/menu.js"></script>
+<script src="../js/image_zoom.js"></script>
 </html>

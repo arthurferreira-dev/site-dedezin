@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url(../css/posts.css); /*Primeira Importação em CSS!*/
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    body {
+        background-color: #025E73;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    main {
+        width: 775px;
+    }
+
+    img.img {
+        transition-duration: var(--0_36s);
+    }
+
+    img.img:hover {
+        scale: 1.09;
+        box-shadow: 6px 3.65px 7.8px #00000091;
+    }
+
+    button#btn-migmig {
+        transition-duration: var(--0_36s);
+    }
+
+    button#btn-migmig:hover {
+        scale: 1.1;
+        box-shadow: 0px 5.5px 8px #00000077;
+    }
+}

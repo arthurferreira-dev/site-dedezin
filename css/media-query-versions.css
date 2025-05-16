@@ -6,18 +6,40 @@
     }
 
     img#version-1-0-img {
-        display: block;
-        margin: auto;
         height: 148px; /*Reduzido para a metade da metade da altura arredondado para +1*/
         width: 206px; /*Reduzido para a metade da metade da largura arredondado para +1*/
+    }
+
+    img#version-2-0 {
+        height: 200px; /*Dividido por 2 e dividido por 2*/
+        width: 200px; /*Dividido por 2 e dividido por 2*/
+    }
+
+    i#x-mark {
+        padding-right: 17.5px;
+    }
+
+    i#x-mark2 {
+        padding-right: 17.5px;
     }
 }
 
 @media screen and (min-width: 775px) {
     img#version-1-0-img {
-        display: block;
-        margin: auto;
         height: 295.5px; /*Reduzido para a metade da altura*/
         width: 410px; /*Reduzido para a metade da largura*/
+    }
+
+    img#version-2-0 {
+        height: 400px; /*Dividido por 2 e arredondado com +105*/
+        width: 400px; /*Dividido por 2 e arredondado com +105*/
+    }
+
+    i#x-mark {
+        padding-right: 135px;
+    }
+
+    i#x-mark2 {
+        padding-right: 135px;
     }
 }
