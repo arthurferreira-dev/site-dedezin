@@ -5,9 +5,23 @@
     src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
 }
 
+:root {
+    --comfortaa: 'Comfortaa Regular', Arial, Verdana, Helvetica, sans-serif;
+    --arial: Arial, Helvetica, sans-serif;
+
+    --padding-icon-1: 27px;
+    --padding-icon-2: 67px;
+    --padding-icon-3: 7px;
+    --padding-icon-media: 18px;
+    --padding-icon-media-max: 135px;
+    --size-icon: 1.2em;
+
+    --border-radius: 5.6px;
+}
+
 body {
     background-color: #00536F;
-    font-family: 'Comfortaa Regular', Arial, Verdana, Helvetica, sans-serif;
+    font-family: var(--comfortaa);
 }
 
 main {
@@ -15,7 +29,7 @@ main {
     margin: auto;
     width: 500px;
     padding: 6px;
-    border-radius: 5.6px;
+    border-radius: var(--border-radius);
 }
 
 .center {
@@ -42,6 +56,11 @@ img#version-2-0 {
     width: 265px; /*Dividido por 2 e arredondado com +5*/
 }
 
+img#version-3-0-img {
+    height: 155.5px;
+    width: 405.5px;
+}
+
 p.launcher {
     text-align: center;
     margin-top: 12px;
@@ -51,15 +70,22 @@ p.launcher {
 i#x-mark {
     display: none;
     text-align: right;
-    padding-right: 29px;
-    font-size: 1.2em;
+    padding-right: var(--padding-icon-1);
+    font-size: var(--size-icon);
 }
 
 i#x-mark2 {
     display: none;
     text-align: right;
-    padding-right: 29px;
-    font-size: 1.2em;
+    padding-right: var(--padding-icon-2);
+    font-size: var(--size-icon);
+}
+
+i#x-mark3 {
+    display: none;
+    text-align: right;
+    padding-right: var(--padding-icon-3);
+    font-size: var(--size-icon);
 }
 
 i#yt-icon {
@@ -67,5 +93,5 @@ i#yt-icon {
 }
 
 footer > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--arial);
 }

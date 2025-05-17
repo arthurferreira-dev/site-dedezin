@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('versions.css');
 
 @media screen and (min-width: 320px) and (max-width: 460px) {
     body {
@@ -15,12 +16,21 @@
         width: 200px; /*Dividido por 2 e dividido por 2*/
     }
 
+    img#version-3-0-img {
+        height: 78px; /*Dividido por 2 e dividido por 2 arredondado +00.25*/
+        width: 203px; /*Dividido por 2 e dividido por 2 arredondado +00.25*/
+    }
+
     i#x-mark {
-        padding-right: 17.5px;
+        padding-right: var(--padding-icon-media);
     }
 
     i#x-mark2 {
-        padding-right: 17.5px;
+        padding-right: var(--padding-icon-media);
+    }
+
+    i#x-mark3 {
+        padding-right: var(--padding-icon-media);
     }
 }
 
@@ -36,10 +46,14 @@
     }
 
     i#x-mark {
-        padding-right: 135px;
+        padding-right: var(--padding-icon-media-max);
     }
 
     i#x-mark2 {
-        padding-right: 135px;
+        padding-right: var(--padding-icon-media-max);
+    }
+
+    i#x-mark3 {
+        padding-right: var(--padding-icon-media-max);
     }
 }

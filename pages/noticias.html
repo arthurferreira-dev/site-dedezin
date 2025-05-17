@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André Games - Notícias</title>
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/noticias.css">
+    <link rel="stylesheet" href="../css/media-query-noticias.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../default/default.css">
+    <link rel="stylesheet" href="../default/media-query-default.css">
+</head>
+<body onresize="High()">
+    <header>
+        <i class="fa-solid fa-caret-down" id="menu-open" onclick="MenuOpen()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="posts.html">Posts</a></li>
+                <li><a href="versions.html">Changelog</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <section>
+                <div id="div-inline">
+                    <img src="../imgs/arthur-ferreira_profile.jpeg" alt="Arthur Ferreira Dev - Profile" id="dev-img">
+                    <h2 class="center" id="title-post">Sobre mim</h2>
+                </div>
+                <p id="p-desc-dev">
+                    Olá meu nome é Arthur Ferreira, mais, você pode me chamar de Arthur. Eu já aprendi 
+                    HTML5 <i class="fa-brands fa-html5" id="icon-html"></i>
+                     e 
+                     CSS3 <i class="fa-brands fa-css3" id="icon-css"></i>
+                     aprendi o básico de 
+                    JS <i class="fa-brands fa-js" id="icon-js"></i>, 
+                    agora estou aprendendo 
+                    Python <i class="fa-brands fa-python" id="icon-py"></i> e 
+                    PHP <i class="fa-brands fa-php" id="icon-php"></i>.
+                </p>
+
+                <button id="btn-github">
+                    <a href="https://github.com/arthurferreira-dev" target="_blank">
+                        Github <i class="fa-brands fa-github" id="icon-github"></i>
+                    </a>
+                </button>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Site desenvolvido por <strong><a href="https://github.com/arthurferreira-dev/" target="_blank" class="link-footer">Arthur Ferreira Dev <span>&#x1F517;</span></a></strong></p>
+    </footer>
+</body>
+<script src="../js/menu.js"></script>
+</html>

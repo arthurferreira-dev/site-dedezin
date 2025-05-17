@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('../default/default.css');
+
 @font-face {
     font-family: 'Comfortaa';
     src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
@@ -24,7 +26,7 @@ main {
 }
 
 img.img {
-    display: block;
+    display: var(--bloco);
     margin: auto;
     border-radius: 6px;
     margin-bottom: 8px;
@@ -46,19 +48,19 @@ a#link-migmig:hover {
 }
 
 button#btn-migmig {
-    display: block;
+    display: var(--bloco);
     margin: auto;
     margin-top: 8px;
     padding: 6px;
     font-size: 1.1em;
     width: 185px;
-    border-radius: 5.6px;
-    border: none;
+    border-radius: var(--border-radius);
+    border: var(--nada);
     background-color: #104df5;
 }
 
 button#btn-migmig > a {
-    color: #fff;
+    color: var(--fff);
 }
 
 footer > p {
@@ -66,5 +68,5 @@ footer > p {
 }
 
 .center {
-    text-align: center;
+    text-align: var(--centro);
 }

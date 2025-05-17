@@ -1,16 +1,16 @@
 @charset "UTF-8";
-
+@import url('default.css');
 @media screen and (min-width: 320px) and (max-width: 460px) {
     body {
         background-color: #025E73;
     }
 
     main {
-        width: 345px;
+        width: 340px;
     }
 
     footer > p {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
 }
 
@@ -21,20 +21,20 @@
     }
 
     main {
-        width: 775px;
+        width: 770px;
     }
 
     menu > ul > li {
-        display: inline-block;
+        display: var(--bloco-alinhado);
     }
 
     i#menu-open {
-        display: none;
+        display: var(--nada);
     }
 
     menu {
         margin: auto;
-        text-align: center;
+        text-align: var(--centro);
     }
 
     footer > p {

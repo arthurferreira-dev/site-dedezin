@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('../default/default.css');
+
 @font-face {
     font-family: 'Comfortaa';
     src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
@@ -47,7 +49,7 @@ div.video > iframe {
 }
 
 img.imgs {
-    display: block;
+    display: var(--bloco);
     margin: auto;
     width: 375px;
     height: 375px;
@@ -58,5 +60,5 @@ p.error-iframe {
 }
 
 .center {
-    text-align: center;
+    text-align: var(--centro);
 }

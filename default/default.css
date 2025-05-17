@@ -10,7 +10,19 @@
 :root {
     --white: #D4CCD9;
     --black: #111016;
+    --gray-dark: #848484;
+    --fff: #fff;
+    --000: #000;
     --transition: .40s;
+    
+    --centro: center;
+    --nada: none;
+    --bloco: block;
+    --bloco-alinhado: inline-block;
+    --flex-alinhado: inline-flex;
+
+    --border-radius: 5.6px;
+    --border-menu: 6.5px;
 }
 
 header {
@@ -18,13 +30,13 @@ header {
 }
 
 ol, ul {
-    list-style-type: none;
+    list-style-type: var(--nada);
 }
 
 menu > ul > li > a {
-    display: block;
+    display: var(--bloco);
     padding: 10px;
-    text-align: center;
+    text-align: var(--centro);
     color: var(--black);
     font-weight: 700;
     transition: all var(--transition);
@@ -36,13 +48,13 @@ menu > ul > li > a:hover {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: var(--nada);
     color: var(--black);
 }
 
 a.link-footer {
     background-color: var(--black);
-    color: #fff;
+    color: var(--fff);
     padding: 2.34px;
     border-radius: 4.5px;
 }
@@ -53,10 +65,10 @@ a.link-footer:hover {
 }
 
 menu {
-    display: block;
+    display: var(--bloco);
     background-color: var(--white);
-    border-bottom-right-radius: 6.5px;
-    border-bottom-left-radius: 6.5px;
+    border-bottom-right-radius: var(--border-menu);
+    border-bottom-left-radius: var(--border-menu);
     padding-left: 1px;
     width: 1103.150;
     height: 39.282;
@@ -65,12 +77,12 @@ menu {
 
 i#menu-open {
     background-color: var(--white);
-    color: #000;
+    color: var(--000);
     padding-bottom: 4px;
     border-radius: 0px;
     font-size: 1.66em;
     width: 100%;
-    text-align: center;
+    text-align: var(--centro);
     transition-duration: var(--transition);
 }
 
@@ -80,7 +92,7 @@ i#menu-open:hover {
 }
 
 p#comment {
-    background-color: #848484;
+    background-color: var(--gray-dark);
     color: #fff;
     width: 333px;
     padding: 6px;
@@ -96,5 +108,5 @@ footer {
 }
 
 footer > p {
-    text-align: center;
+    text-align: var(--centro);
 }

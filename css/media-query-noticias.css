@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('noticias.css');
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    img#dev-img {
+        height: 45px;
+    }
+
+    h2#title-post.center { /*Primeira especificação de tag do html5 no css3*/
+        padding-left: 65px;
+    }   
+}
+
+@media screen and (min-width: 775px) {
+    main {
+        width: 775px;
+    }
+
+    h2#title-post.center { /*Primeira especificação de tag do html5 no css3*/
+        padding-left: 250px;
+    } 
+
+    button#btn-github {
+        transition-duration: var(--seconds);
+    }
+
+    button#btn-github:hover {
+        scale: 1.09;
+        box-shadow: var(--box-shadow);
+    }
+}

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('../default/default.css');
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
+}
+
+:root {
+    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
+    --arial: Arial, Helvetica, sans-serif;
+
+    --icon-size: 1.2em;
+    --html5: #ec6231;
+    --css3: #2965f1;
+    --javascript: #f0db4f;
+    --php8: #474A8A;
+    --python: #131313;
+    --github: #000;
+
+    --seconds: .36s;
+    --box-shadow: 6.7px 5.6px 8.7px #0000007e;
+
+    --main: #2f2e31;
+    --border-radius: 5.6px;
+}
+
+body {
+    font-family: var(--comfortaa);
+    background-color: #025E73;
+}
+
+main {
+    display: var(--bloco);
+    margin: auto;
+    width: 500px;
+    background-color: var(--main);
+    padding: 6px;
+    border-radius: var(--border-radius);
+    color: #fff;
+}
+
+img#dev-img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.center {
+    text-align: var(--centro);
+}
+
+div#div-inline {
+    display: var(--flex-alinhado);
+}
+
+h2#title-post.center { /*Primeira especificação de tag do html5 no css3*/
+    display: var(--bloco);
+    margin: auto;
+    padding-left: 125px;
+}
+
+i#icon-html {
+    font-size: var(--icon-size);
+    color: var(--html5);
+}
+
+i#icon-css {
+    font-size: var(--icon-size);
+    color: var(--css3);
+}
+
+i#icon-js {
+    font-size: var(--icon-size);
+    color: var(--javascript);
+}
+
+i#icon-py {
+    font-size: var(--icon-size);
+    color: var(--python);
+}
+
+i#icon-php {
+    font-size: var(--icon-size);
+    color: var(--php8);
+}
+
+i#icon-github {
+    font-size: var(--icon-size);
+    color: var(--github);
+    background-color: #fff;
+}
+
+p#p-desc-dev {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+button#btn-github {
+    display: var(--bloco);
+    margin: auto;
+    margin-top: 12px;
+    padding: 5px;
+    width: 150px;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    border: var(--nada);
+    font-size: 1.15em;
+}
+
+footer > p {
+    font-family: var(--arial);
+}

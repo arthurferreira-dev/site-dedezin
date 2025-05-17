@@ -29,3 +29,19 @@ function OutClickImage2() { // forma normal da imagem quando clicar no "x"
     img2.style.scale = '1.0'
     mark2.style.display = 'none'
 }
+
+function ClickImage3() { // Escala da Imagem e aparição do "x"
+    let img3 = document.querySelector('img#version-3-0-img')
+    let mark3 = document.getElementById('x-mark3')
+
+    img3.style.scale = '1.09'
+    mark3.style.display = 'block'
+}
+
+function OutClickImage3() { // forma normal da imagem quando clicar no "x"
+    let img3 = document.querySelector('img#version-3-0-img')
+    let mark3 = document.getElementById('x-mark3')
+
+    img3.style.scale = '1.0'
+    mark3.style.display = 'none'
+}
