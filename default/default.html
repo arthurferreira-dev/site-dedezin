@@ -8,6 +8,24 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../default/default.css">
     <link rel="stylesheet" href="../default/media-query-default.css">
+    <style>
+        @font-face {
+            font-family: 'Comfortaa';
+            src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
+        }
+
+        body {
+            font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+        }
+
+        th, td {
+            border-collapse: collapse;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+            padding: 6px;
+        }
+    </style>
 </head>
 <body onresize="High()">
     <header>
@@ -21,6 +39,32 @@
             </ul>
         </menu>
     </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de Versão</th>
+                    <th>Versão</th>
+                    <th>Conteúdo</th>
+                    <th>Lançamento</th>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alpha</td>
+                    <td>3.0</td>
+                    <td>Criação</td>
+                    <td>17/05/25</td>
+                </tr>
+                <tr>
+                    <td>Alpha</td>
+                    <td>3.1</td>
+                    <td>Correção</td>
+                    <td>19/05/25</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
     <footer>
         <p>Site desenvolvido por <strong><a href="https://github.com/arthurferreira-dev/" target="_blank" class="link-footer">Arthur Ferreira Dev <span>&#x1F517;</span></a></strong></p>
     </footer>
