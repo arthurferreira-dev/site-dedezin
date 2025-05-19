@@ -1,6 +1,6 @@
-#Made by Arthur Ferreira Deve
+# Made by Arthur Ferreira Deve
 
-#Made to André Games
+# Made to André Games
 
 ## Version
-###Alpha 3.0
+### Alpha 3.0
