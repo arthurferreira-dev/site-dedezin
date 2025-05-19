@@ -1,4 +1,4 @@
-# Made by Arthur Ferreira Deve
+# Made by Arthur Ferreira Dev
 
 # Made to André Games
 
