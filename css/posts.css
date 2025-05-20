@@ -36,6 +36,34 @@ p#p-desc {
     text-align: left;
     width: 65%;
     margin: auto;
+    line-height: 1.3em;
+}
+
+p#content-desc {
+    margin: auto;
+    width: 65%;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+p#like-like, p#subs-subs, p#part-part {
+    width: 135px;
+    padding: 3px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+p#like-like {
+    background-color: #f92020;
+}
+
+p#subs-subs {
+    background-color: #7e34fd;
+}
+
+p#part-part {
+    background-color: #ffbc50;
+    width: 175px;
 }
 
 a#link-migmig {
