@@ -3,7 +3,7 @@
 # Made to André Games
 
 ## Version
-### Alpha 3.0
+### Alpha 4.0
 
 <table>
     <thead>
