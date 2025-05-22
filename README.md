@@ -27,6 +27,12 @@
             <td>Correção</td>
             <td>19/05/25</td>
         </tr>
+        <tr>
+            <td>Alpha</td>
+            <td>4.0</td>
+            <td>Criação</td>
+            <td>21/05/25</td>
+        </tr>
     </tbody>
 </table>
 
