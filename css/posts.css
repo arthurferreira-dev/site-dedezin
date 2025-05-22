@@ -2,17 +2,6 @@
 
 @import url('../default/default.css');
 
-@font-face {
-    font-family: 'Comfortaa';
-    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
-}
-
-:root {
-    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
-    --arial: Arial, Helvetica, sans-serif;
-    --0_36s: .36s;
-}
-
 body {
     font-family: var(--comfortaa);
     background-color: #025E73;
@@ -22,7 +11,7 @@ main {
     margin: auto;
     background-color: #717171;
     padding: 6px;
-    border-radius: 5.6px;
+    border-radius: var(--border-radius);
 }
 
 img.img {
@@ -67,7 +56,7 @@ p#part-part {
 }
 
 a#link-migmig {
-    transition-duration: var(--0_36s);
+    transition-duration: var(--transition);
 }
 
 a#link-migmig:hover {

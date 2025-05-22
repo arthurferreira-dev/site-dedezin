@@ -2,16 +2,6 @@
 
 @import url('../default/default.css');
 
-@font-face {
-    font-family: 'Comfortaa';
-    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
-}
-
-:root {
-    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
-    --arial: Arial, Helvetica, sans-serif;
-}
-
 body {
     font-family: var(--comfortaa);
     background-color: #025E73;
@@ -21,7 +11,7 @@ main {
     margin: auto;
     background-color: #4a6a78;
     padding: 6px;
-    border-radius: 5.6px;
+    border-radius: var(--border-radius);
 }
 
 footer > p {
@@ -29,7 +19,7 @@ footer > p {
 }
 
 iframe {
-    border-radius: 6.5px;
+    border-radius: var(--border-menu);
 }
 
 div.video {

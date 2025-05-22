@@ -1,22 +1,14 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Comfortaa Regular';
-    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
-}
+@import url('../default/default.css');
 
 :root {
-    --comfortaa: 'Comfortaa Regular', Arial, Verdana, Helvetica, sans-serif;
-    --arial: Arial, Helvetica, sans-serif;
-
     --padding-icon-1: 27px;
     --padding-icon-2: 67px;
     --padding-icon-3: 7px;
     --padding-icon-media: 18px;
     --padding-icon-media-max: 135px;
     --size-icon: 1.2em;
-
-    --border-radius: 5.6px;
 }
 
 body {
@@ -33,17 +25,17 @@ main {
 }
 
 .center {
-    text-align: center;
+    text-align: var(--centro);
 }
 
 img {
-    display: block;
+    display: var(--bloco);
     margin: auto;
     border: 1.45px solid #000;
 }
 
 img.images {
-    transition-duration: .36s;
+    transition-duration: var(--transition);
 }
 
 img#version-1-0-img {
@@ -62,27 +54,27 @@ img#version-3-0-img {
 }
 
 p.launcher {
-    text-align: center;
+    text-align: var(--centro);
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
 i#x-mark {
-    display: none;
+    display: var(--nada);
     text-align: right;
     padding-right: var(--padding-icon-1);
     font-size: var(--size-icon);
 }
 
 i#x-mark2 {
-    display: none;
+    display: var(--nada);
     text-align: right;
     padding-right: var(--padding-icon-2);
     font-size: var(--size-icon);
 }
 
 i#x-mark3 {
-    display: none;
+    display: var(--nada);
     text-align: right;
     padding-right: var(--padding-icon-3);
     font-size: var(--size-icon);
@@ -90,6 +82,10 @@ i#x-mark3 {
 
 i#yt-icon {
     color: #dd1414;
+}
+
+li.item-ol { /*Me ajudou pra caramba*/
+    margin-bottom: 6px;
 }
 
 footer > p {

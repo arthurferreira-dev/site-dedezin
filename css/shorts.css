@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('../default/default.css');
+
+body {
+    font-family: var(--comfortaa);
+}
+
+main {
+    margin: auto;
+    padding: 6.5px;
+    border-radius: var(--border-radius);
+    background-color: #e0e0e0;
+    width: 550px;
+}
+
+h2#titles {
+    font-size: 1.1em;
+    margin-top: 12px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: var(--border-radius);
+}
+
+img.images {
+    margin-top: 6.5px;
+    width: 120px;
+}
+
+a.link-img {
+    width: 10px;
+    height: 10px;
+}
+
+footer > p {
+    font-family: var(--arial);
+}
+
+.center {
+    text-align: var(--centro);
+}

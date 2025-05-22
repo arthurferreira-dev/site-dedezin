@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url(media-query-default.css);
 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,6 +13,9 @@
 }
 
 :root {
+    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
+    --arial: Arial, Helvetica, sans-serif;
+
     --white: #D4CCD9;
     --black: #111016;
     --gray-dark: #848484;

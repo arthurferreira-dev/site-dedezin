@@ -2,15 +2,7 @@
 
 @import url('../default/default.css');
 
-@font-face {
-    font-family: 'Comfortaa';
-    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
-}
-
 :root {
-    --comfortaa: 'Comfortaa', Arial, Verdana, Helvetica, sans-serif;
-    --arial: Arial, Helvetica, sans-serif;
-
     --icon-size: 1.2em;
     --html5: #ec6231;
     --css3: #2965f1;
@@ -23,7 +15,6 @@
     --box-shadow: 6.7px 5.6px 8.7px #0000007e;
 
     --main: #2f2e31;
-    --border-radius: 5.6px;
 }
 
 body {

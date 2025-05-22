@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('../default/default.css');
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    img.images {
+        margin-top: 6.5px;
+        width: 111px;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    main {
+        width: 770px;
+    }
+
+    img.images {
+        margin-top: 6.5px;
+        width: 145px;
+        transition-duration: var(--transition);
+    }
+
+    img.images:hover {
+        scale: 1.1;
+        box-shadow: 6px 3.65px 8px var(--black);
+    }
+}

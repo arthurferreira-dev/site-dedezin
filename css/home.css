@@ -1,16 +1,7 @@
 @charset "UTF-8";
-
 @import url('../default/default.css');
 
-@font-face {
-    font-family: 'Comfortaa Regular';
-    src: url('../fonts/comfortaa/Comfortaa-Regular.ttf') format(truetype);
-}
-
-:root {
-    --comfortaa: 'Comfortaa Regular', Arial, Verdana, Helvetica, sans-serif;
-    --arial: Arial, Helvetica, sans-serif;
-}
+@import url('../default/default.css');
 
 body {
     background-color: #00536F;
