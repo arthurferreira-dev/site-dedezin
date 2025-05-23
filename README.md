@@ -33,6 +33,12 @@
             <td>Criação</td>
             <td>21/05/25</td>
         </tr>
+        <tr>
+            <td>Alpha</td>
+            <td>4.1</td>
+            <td>Correção</td>
+            <td>22/05/25</td>
+        </tr>
     </tbody>
 </table>
 
