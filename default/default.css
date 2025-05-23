@@ -99,15 +99,6 @@ i#menu-open:hover {
     color: var(--white);
 }
 
-p#comment {
-    background-color: var(--gray-dark);
-    color: #fff;
-    width: 333px;
-    padding: 6px;
-    margin: auto;
-    border-radius: 5.6px;
-}
-
 footer {
     background-color: var(--white);
     color: var(--black);

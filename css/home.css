@@ -32,6 +32,15 @@ img#profile {
     text-align: var(--centro);
 }
 
+p#comment {
+    background-color: var(--gray-dark);
+    color: #fff;
+    width: 333px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 5.6px;
+}
+
 a#profile-link:hover {
     color: #535353;
     text-decoration: underline;

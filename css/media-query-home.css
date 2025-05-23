@@ -4,6 +4,15 @@
     body {
         background-color: #025E73;
     }
+
+    p#comment {
+        background-color: var(--gray-dark);
+        color: #fff;
+        width: 100%;
+        padding: 6px;
+        margin: auto;
+        border-radius: 5.6px;
+    }
 }
 
 @media screen and (min-width: 775px) {
